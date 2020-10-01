@@ -23,7 +23,7 @@ while True:
     a=input("Enter a number: ")
     a=float(a)
     if a%2!=0:
-        print("That is not an even number")
+        print("That is not an even integer.")
     else:
-        print("That is an even number")
+        print("That is an even integer.")
         break
