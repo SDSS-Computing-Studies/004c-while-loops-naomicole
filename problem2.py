@@ -16,4 +16,11 @@ Enter a number: 4
 4 8 12 16 20 24 28 32 36 40 44 48
 """
 
-.
+a = input("Enter a number: ").strip()
+a = int(a)
+b = a 
+print(b,end=" ")
+while a < b*12:
+    a = a + b
+    print(a,end=" ")
+   
