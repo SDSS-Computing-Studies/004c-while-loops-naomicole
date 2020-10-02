@@ -19,13 +19,10 @@ username="admin"
 password="12345"
 
 while True:
-    a=input("username: ")
-    if a==username:
-        b=input("password: ")
-        if b==password:
-            break
-        else:
-            print("Access denied")
+    a=input("username: ").strip()
+    b=input("password: ").strip()
+    if a==username and b==password:
+     break
     else:
         print("Access denied")
 
